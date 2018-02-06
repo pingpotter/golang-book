@@ -6,7 +6,7 @@
 
 **Job title:** *Dev*
 
-## Chepter 2 ##
+### Chepter 2 ###
 
 ## Chepter 3 ##
 
