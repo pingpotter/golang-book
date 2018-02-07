@@ -13,4 +13,7 @@
 
 ## Chepter 3 ##
 
-## Chepter 3 ##
+* chapter 3-1: Zero value
+* chapter 3-2: String backticks and doubleQuote
+
+## Chepter 4 ##
