@@ -15,5 +15,6 @@
 
 * chapter 3-1: Zero value
 * chapter 3-2: String backticks and doubleQuote
+* chapter 3-2: Floating Point and Comparing floating point
 
 ## Chepter 4 ##
