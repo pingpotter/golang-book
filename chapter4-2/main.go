@@ -12,7 +12,7 @@ func main() {
 	var input float64
 	fmt.Scanf("%f", &input)
 
-	output := input * 2
-	fmt.Println(output)
+	output := (input - 32) * 5/9
+	fmt.Printf("%.2f",output)
 
 }
