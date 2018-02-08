@@ -20,3 +20,4 @@
 ## Chepter 4 ##
 
 * chapter 4-1: Variable
+* chapter 4-2: Input data to calculator
