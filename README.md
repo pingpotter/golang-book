@@ -18,3 +18,5 @@
 * chapter 3-2: Floating Point and Comparing floating point
 
 ## Chepter 4 ##
+
+* chapter 4-1: Variable
