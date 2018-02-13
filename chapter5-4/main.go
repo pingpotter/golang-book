@@ -12,10 +12,15 @@ func main() {
 	random := rand.Intn(100)
 	fmt.Println("Random : ", random)
 
-	for i := 0; i < 5; i++ {
+	for i := 0; i <= 5; i++ {
 
 		var input int
 		fmt.Scanf("%d\n", &input)
+
+		if i == 5 {
+			fmt.Println("เกินพอ")
+			return
+		}
 
 		if input > random {
 			fmt.Println(input, "มากไป")
