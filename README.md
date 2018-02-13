@@ -24,6 +24,7 @@
 
 ## Chepter 5 ##
 
-* chapter 5-1: For Conditions 
-* chapter 5-2: If Conditions 
-* chapter 5-2: switch case Conditions 
+* chapter 5-1: For Condition
+* chapter 5-2: If Condition
+* chapter 5-3: switch case Condition
+* chapter 5-4: Example Condition
