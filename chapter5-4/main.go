@@ -8,12 +8,11 @@ import (
 
 func main() {
 
-	for i := 1; ; i++ {
+	rand.Seed(time.Now().Unix())
+	random := rand.Intn(100)
+	fmt.Println("Random : ", random)
 
-		s1 := rand.NewSource(time.Now().UnixNano())
-		r1 := rand.New(s1)
-		random := r1.Intn(100)
-		fmt.Println(i, "Random : ", random)
+	for i := 0; i < 5; i++ {
 
 		var input int
 		fmt.Scanf("%d\n", &input)
@@ -27,8 +26,5 @@ func main() {
 			return
 		}
 
-		if i > 5 {
-			return
-		}
 	}
 }
