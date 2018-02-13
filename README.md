@@ -26,3 +26,4 @@
 
 * chapter 5-1: For Conditions 
 * chapter 5-2: If Conditions 
+* chapter 5-2: switch case Conditions 

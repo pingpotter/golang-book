@@ -1,8 +1,8 @@
 package main
 
 import (
-	"time"
 	"fmt"
+	"time"
 )
 
 var j string = "Hello World 5"
@@ -35,12 +35,12 @@ func main() {
 		h = 15
 	)
 
-	fmt.Printf("%v %v %v\n", f , g, h)
+	fmt.Printf("%v %v %v\n", f, g, h)
 
 	v1, v2 := "First", "Second"
 	fmt.Printf("%v %v\n", v1, v2)
 
-	v1, v2 = v2 , v1
+	v1, v2 = v2, v1
 	fmt.Printf("%v %v\n", v1, v2)
 }
 

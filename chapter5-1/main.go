@@ -17,7 +17,6 @@ func main() {
 	fmt.Println("9")
 	fmt.Println("10")
 
-
 	number := 1
 
 	for number <= 10 {
