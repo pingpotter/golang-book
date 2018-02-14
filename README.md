@@ -28,3 +28,7 @@
 * chapter 5-2: If Condition
 * chapter 5-3: switch case Condition
 * chapter 5-4: Example Condition
+
+## Chepter 6 ##
+
+* chapter 6-1: Basic Function
