@@ -32,3 +32,4 @@
 ## Chepter 6 ##
 
 * chapter 6-1: Basic Function
+* chapter 6-2: Basic Function - return type
