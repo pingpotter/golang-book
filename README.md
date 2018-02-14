@@ -41,3 +41,4 @@
 
 * chapter 7-1: Arrays 
 * chapter 7-2: Slice 
+* chapter 7-3: Slice from array
