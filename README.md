@@ -40,3 +40,4 @@
 ## Chepter 7 ##
 
 * chapter 7-1: Arrays 
+* chapter 7-2: Slice 
