@@ -48,3 +48,4 @@
 * chapter 7-7: Ok Map
 * chapter 7-8: range
 * chapter 7-9: range in slice
+* chapter 7-9: range in map
