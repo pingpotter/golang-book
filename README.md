@@ -34,3 +34,4 @@
 * chapter 6-1: Basic Function
 * chapter 6-2: Basic Function - return type
 * chapter 6-3: Basic Function - mutiple values
+* chapter 6-3: variadic Function 
