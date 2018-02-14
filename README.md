@@ -43,3 +43,4 @@
 * chapter 7-2: Slice 
 * chapter 7-3: Slice from array
 * chapter 7-4: Coppy Slice from Slice
+* chapter 7-5: Map
