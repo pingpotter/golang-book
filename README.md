@@ -36,3 +36,7 @@
 * chapter 6-3: Basic Function - mutiple values
 * chapter 6-4: variadic Function 
 * chapter 6-5: Example Function 
+
+## Chepter 7 ##
+
+* chapter 7-1: Arrays 
