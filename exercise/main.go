@@ -2,7 +2,10 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"strconv"
+
+	owm "github.com/briandowns/openweathermap"
 )
 
 func main() {
@@ -16,6 +19,21 @@ func main() {
 	fmt.Println(weatherCelsius2(1234567890.239, "Locations2"))
 	fmt.Println(weatherCelsius2(-1234567890.234, "Locations2"))
 
+	//API by open weather map
+
+	w, err := owm.NewCurrent("C", "EN", "bfbbb8a64f577f6c416c3e012e579d28")
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	w.CurrentByID(1609350) //Bangkok
+	fmt.Println(weatherCelsius2(w.Main.Temp, fmt.Sprintf("%s,%s is %s", w.Name, w.Sys.Country, w.Weather[0].Description)))
+
+	w.CurrentByID(1608528) //Changwat Nakhon Ratchasima
+	fmt.Println(weatherCelsius2(w.Main.Temp, fmt.Sprintf("%s,%s is %s", w.Name, w.Sys.Country, w.Weather[0].Description)))
+
+	w.CurrentByID(524901) //Moscow
+	fmt.Println(weatherCelsius2(w.Main.Temp, fmt.Sprintf("%s,%s is %s", w.Name, w.Sys.Country, w.Weather[0].Description)))
 }
 
 func weatherCelsius(celsius int, desc string) string {
