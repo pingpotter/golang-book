@@ -24,6 +24,7 @@ func main() {
 	w, err := owm.NewCurrent("C", "EN", "bfbbb8a64f577f6c416c3e012e579d28")
 	if err != nil {
 		log.Fatalln(err)
+		return
 	}
 
 	w.CurrentByID(1609350) //Bangkok

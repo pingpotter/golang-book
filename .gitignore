@@ -1,6 +1,5 @@
 *debug*
 *.exe
 *.txt
-.vscode/settings.json
-../.vscode/
-../test/
+.vscode/
+test/
