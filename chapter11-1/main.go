@@ -37,10 +37,6 @@ func (r Rectangle) area() float64 {
 	return r.w * r.h
 }
 
-func (c Circle) area() float64 {
+func (c *Circle) area() float64 {
 	return math.Pi * c.z * c.z
-}
-
-func (c *Circle) changeRedius(r float64) {
-	c.z = r
 }
