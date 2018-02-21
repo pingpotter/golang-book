@@ -67,3 +67,8 @@
 ## Chepter 9 ##
 
 * chapter 9-1: Struct type
+* chapter 9-2: Struct type
+
+
+## Chepter 10 ##
+* chapter 10-1: method
