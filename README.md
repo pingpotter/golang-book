@@ -60,3 +60,4 @@
 * chapter 8-1: Pointer pass by value 
 * chapter 8-2: Pointer pass by pointer 
 * chapter 8-3: Pointer pass by array value 
+* chapter 8-4: Pointer pass by array pointer
