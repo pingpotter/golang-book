@@ -29,8 +29,9 @@ func main() {
 	//API by open weather map
 
 	//Read configuration file
+
 	config := LoadConfiguration("conf.json")
-	os.Setenv("HTTP_PROXY", config.Proxy)
+	//os.Setenv("HTTP_PROXY", config.Proxy)
 
 	w, err := owm.NewCurrent("C", "EN", config.APIKey)
 	if err != nil {
