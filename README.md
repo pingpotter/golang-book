@@ -63,3 +63,7 @@
 * chapter 8-4: Pointer pass by array pointer
 * chapter 8-5: Pointer pass by slice value
 * chapter 8-6: Pointer pass by map value
+
+## Chepter 9 ##
+
+* chapter 9-1: Struct type
