@@ -61,3 +61,5 @@
 * chapter 8-2: Pointer pass by pointer 
 * chapter 8-3: Pointer pass by array value 
 * chapter 8-4: Pointer pass by array pointer
+* chapter 8-5: Pointer pass by slice value
+* chapter 8-6: Pointer pass by map value
