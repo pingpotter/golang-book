@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "github.com/pingpotter/vendingMachine"
+import "github.com/BellBezel/vendingMachine"
 
 var coins = map[string]int{"T": 10, "F": 5, "TW": 2, "O": 1}
 var items = map[string]int{"SD": 18, "CC": 12}
