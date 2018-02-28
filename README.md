@@ -51,10 +51,6 @@
 * chapter 7-10: range in map
 * chapter 7-11: range string
 
-## Exercise ##
-
-* exercise 1: Show temperature in digital display
-
 ## Chepter 8 ##
 
 * chapter 8-1: Pointer pass by value 
@@ -75,3 +71,10 @@
 
 ## Chepter 11 ##
 * chapter 11-1: interface
+
+
+
+## Exercise ##
+
+* exercise 1: Show temperature in digital display
+* exercise 2: Vending machine
