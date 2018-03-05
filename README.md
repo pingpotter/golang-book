@@ -72,9 +72,14 @@
 ## Chepter 11 ##
 * chapter 11-1: interface
 
-
+## Chepter 12 ##
+* chapter 12-1: first class function 1
+* chapter 12-2: first class function 2
+* chapter 12-3: first class function 3
+* chapter 12-4: first class function - Fizzbuzzz 
 
 ## Exercise ##
 
 * exercise 1: Show temperature in digital display
 * exercise 2: Vending machine
+* exercise 3: TDD
