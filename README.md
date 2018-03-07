@@ -78,6 +78,14 @@
 * chapter 12-3: first class function 3
 * chapter 12-4: first class function - Fizzbuzzz 
 
+## Chepter 13 ##
+* chapter 13-1:
+* chapter 13-2: 
+* chapter 13-3: 
+* chapter 13-4: 
+* chapter 13-5: 
+* chapter 13-6: 
+
 ## Exercise ##
 
 * exercise 1: Show temperature in digital display
