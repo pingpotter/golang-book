@@ -79,12 +79,14 @@
 * chapter 12-4: first class function - Fizzbuzzz 
 
 ## Chepter 13 ##
-* chapter 13-1:
-* chapter 13-2: 
-* chapter 13-3: 
-* chapter 13-4: 
-* chapter 13-5: 
-* chapter 13-6: 
+* chapter 13-1: goroutine 1
+* chapter 13-2: goroutine 2
+* chapter 13-3: goroutine 3
+* chapter 13-4: goroutine 4
+* chapter 13-5: goroutine 5
+* chapter 13-6: goroutine 6
+* chapter 13-7: Mutex
+* chapter 13-8: Deadlock!
 
 ## Exercise ##
 
