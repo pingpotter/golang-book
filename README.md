@@ -92,6 +92,9 @@
 * chapter 13-11: Buffered Channel
 * chapter 13-12: Buffered Overfilled
 * chapter 13-13: Goroutine Leak
+* chapter 13-14: Channel-Direction
+* chapter 13-15: Channel-Select
+* chapter 13-16: Pipeline #1
 
 ## Exercise ##
 
