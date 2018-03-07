@@ -87,6 +87,11 @@
 * chapter 13-6: goroutine 6
 * chapter 13-7: Mutex
 * chapter 13-8: Deadlock!
+* chapter 13-9: Channal
+* chapter 13-10: Channal - Deadlock!
+* chapter 13-11: Buffered Channel
+* chapter 13-12: Buffered Overfilled
+* chapter 13-13: Goroutine Leak
 
 ## Exercise ##
 
