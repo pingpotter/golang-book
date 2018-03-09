@@ -16,8 +16,45 @@ func main() {
 	}
 
 	end := time.Now()
-	fmt.Println(end.Sub(start))
 
+	start2 := time.Now()
+	container2 := order2(volumn)
+	for _, cup := range container2 {
+		fmt.Println(cup)
+	}
+
+	end2 := time.Now()
+
+	fmt.Println("Cafe 1", end.Sub(start))
+	fmt.Println("Cafe 2", end2.Sub(start2))
+
+}
+
+func order2(volumn int) (container []string) {
+
+	order := make(chan string)
+	bar := make(chan string)
+
+	go func() {
+		for i := 1; i <= volumn; i++ {
+			order <- reCive(i)
+		}
+		close(order)
+	}()
+
+	go func() {
+		for coffee := range order {
+			bar <- brew(coffee)
+		}
+
+		close(bar)
+	}()
+
+	for x := range bar {
+		container = append(container, serve(x))
+	}
+
+	return
 }
 
 func order(volumn int) (container []string) {
@@ -34,10 +71,6 @@ func order(volumn int) (container []string) {
 		time.Sleep(5 * time.Millisecond)
 		container = append(container, fmt.Sprintf("%s %s", coffee, "ready :)"))
 	}*/
-
-	order := make(chan string, 1)
-	bar := make(chan string, 4)
-	serv := make(chan string, 1)
 
 	for i := 1; i <= volumn; i++ {
 		coffee := reCive(i)
