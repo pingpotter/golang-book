@@ -95,7 +95,13 @@
 * chapter 13-14: Channel-Direction
 * chapter 13-15: Channel-Select
 * chapter 13-16: Pipeline #1
+* chapter 13-17: Pipeline #2
+* chapter 13-18: Pipeline #2 - Rewrite
+* chapter 13-19: Pipeline #3
+* chapter 13-20: Timeout
 
+## Chepter 14 ##
+ * Build and test basic web app in Go
 ## Exercise ##
 
 * exercise 1: Show temperature in digital display

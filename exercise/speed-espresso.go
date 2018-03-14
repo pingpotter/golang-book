@@ -41,6 +41,8 @@ func order2(volumn int) (container []string) {
 	go brew2(order, bar)
 	go brew2(order, bar)
 	go brew2(order, bar)
+	go brew2(order, bar)
+	go brew2(order, bar)
 
 	for x := range bar {
 		container = append(container, serve(x))
